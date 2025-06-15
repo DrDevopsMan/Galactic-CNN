@@ -191,7 +191,11 @@ This will:
 
 ## Data Sources
 
-This project makes use of data from the **Galaxy Zoo 1 Data Release**:
+This project makes use of data from the **Galaxy Zoo 1 Data Release** and **Sloan Digital Sky Survey (SDSS) — Data Release 18**:
+
+### Galaxy Zoo 1
+
+Galaxy morphology classifications were obtained from the Galaxy Zoo 1 project:
 
 > Lintott, C. J., Schawinski, K., Bamford, S., et al. (2011).  
 > *Galaxy Zoo 1: data release of morphological classifications for nearly 900,000 galaxies*.  
@@ -201,5 +205,20 @@ This project makes use of data from the **Galaxy Zoo 1 Data Release**:
 The Galaxy Zoo 1 dataset was obtained from the Galaxy Zoo project:  
 [www.galaxyzoo.org](http://www.galaxyzoo.org)
 
-The data are publicly available for research and educational purposes, and attribution is provided accordingly.
+---
+
+### Sloan Digital Sky Survey (SDSS) — Data Release 18
+
+Additional galaxy images and blank-sky fields were retrieved by querying the SDSS database using SciServer / CasJobs, followed by image downloads through the SDSS Image Cutout Service.
+
+> J. A. Newman et al., 2023,  
+> *The 18th Data Release of the Sloan Digital Sky Surveys: Mapping the Universe with SDSS-IV and SDSS-V,*.  
+> The Astrophysical Journal Supplement Series, 267:2 (2023).  
+> DOI: [10.3847/1538-4365/acda98 ](https://iopscience.iop.org/article/10.3847/1538-4365/acda98)
+
+SDSS homepage: [https://www.sdss.org/](https://www.sdss.org/)
+
+---
+
+Both datasets are publicly available for research and educational purposes. Attribution is provided in accordance with their data release policies.
 
