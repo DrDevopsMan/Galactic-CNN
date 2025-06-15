@@ -10,7 +10,7 @@ A Convolutional Neural Network (CNN) built in PyTorch to classify astronomical i
 </p>
 
 <p>
-  Elliptical  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No Galaxy / Stars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spiral 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elliptical  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No Galaxy / Stars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spiral 
 </p>
 
 The project includes full data preprocessing, augmentation, training, evaluation, and visualization of some learned feature maps. I also include the scripts I wrote that gathered the actual data from SDSS.
