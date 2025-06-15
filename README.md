@@ -2,16 +2,25 @@
 
 A Convolutional Neural Network (CNN) built in PyTorch to classify astronomical images into 3 classes:
 
-- Elliptical Galaxy
-- No Galaxy / Stars
-- Spiral Galaxy
 
-The project includes full data preprocessing, augmentation, training, evaluation, and visualization of some learned feature maps.
-More work needs to be done to the data that I am using. Since some images contain both types of galaxy classes it can cause some issues.
-Another issue with the data is that I obtained most of it by picking small areas in the sdss skyserver and slightly adjusting the degree at which images that met the criteria was met, meaning that a galaxy that was center of one image might be in the next image slightly off center as the "scan" continued.
+<p float="left">
+  <img src="images/InferenceImages/elliptical_587738947748167710_157.6938_36.9546.jpg" alt="Elliptical Galaxy" width="120"/>
+  <img src="images/InferenceImages/NoGalaxy_587738947748167710_10.5129_36.9546.jpg" alt="No Galaxy / Stars" width="120"/>
+  <img src="images/InferenceImages/spiral_587729971252101396_14.7964_-1.8960.jpg" alt="Spiral Galaxy" width="120"/>
+</p>
+
+<p>
+  Elliptical  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No Galaxy / Stars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spiral 
+</p>
+
+The project includes full data preprocessing, augmentation, training, evaluation, and visualization of some learned feature maps. I also include the scripts I wrote that gathered the actual data from SDSS.
+More work needs to be done to the data that I am using. Since some images contain both types of galaxy classes it can cause some issues. 
+The feature maps like the one below can also be adjusted to produce more columns. 
+
+![Feature Map for Spiral Galaxy](images/Featuremaps/FeatureMapSpiral.png)
 
 ---
-## Positive Class (Galaxies) Data Collection
+## Positive Classes (Galaxies) Data Collection
 
 The positive samples for the model — images containing galaxies — were primarily obtained from the Galaxy Zoo 1 dataset. 
 Galaxy Zoo is a citizen science project where volunteers visually classify galaxies from the Sloan Digital Sky Survey (SDSS). 
