@@ -13,8 +13,8 @@ A Convolutional Neural Network (CNN) built in PyTorch to classify astronomical i
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elliptical  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No Galaxy / Stars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spiral 
 </p>
 
-The project includes full data preprocessing, augmentation, training, evaluation, and visualization of some learned feature maps. I also include the scripts I wrote that gathered the actual data from SDSS.
-More work needs to be done to the data that I am using. Since some images contain both types of galaxy classes it can cause some issues. 
+The project includes full data preprocessing, augmentation, training, evaluation, and visualization of some learned feature maps. I also include the scripts that gathered the actual data from SDSS and Galaxy Zoo.
+More work needs to be done to the data that I am using. Since some images contain both types of galaxy classes it can cause some issues. I have more details on the data below.
 The feature maps like the one below can also be adjusted to produce more columns. 
 
 ![Feature Map for Spiral Galaxy](images/Featuremaps/FeatureMapSpiral.png)
