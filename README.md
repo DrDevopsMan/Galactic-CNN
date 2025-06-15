@@ -189,3 +189,17 @@ This will:
 - Dataset must follow the folder structure used by `torchvision.datasets.ImageFolder`.
 - Code can easily be modified to adjust architecture, hyperparameters, and dataset locations.
 
+## Data Sources
+
+This project makes use of data from the **Galaxy Zoo 1 Data Release**:
+
+> Lintott, C. J., Schawinski, K., Bamford, S., et al. (2011).  
+> *Galaxy Zoo 1: data release of morphological classifications for nearly 900,000 galaxies*.  
+> Monthly Notices of the Royal Astronomical Society, Volume 417, Issue 1, October 2011, Pages 314–332.  
+> DOI: [10.1111/j.1365-2966.2010.17432.x ](https://doi.org/10.1111/j.1365-2966.2010.17432.x)
+
+The Galaxy Zoo 1 dataset was obtained from the Galaxy Zoo project:  
+[www.galaxyzoo.org](http://www.galaxyzoo.org)
+
+The data are publicly available for research and educational purposes, and attribution is provided accordingly.
+
